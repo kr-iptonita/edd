@@ -1,4 +1,4 @@
-package src.unam.fciencias.math;
+package unam.fciencias.math;
 
 public abstract class Progresion {
 
