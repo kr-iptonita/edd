@@ -1,7 +1,7 @@
 package unam.fciencias.math;
 
 /**
- * Clase principal para probar las progresiones.
+ * Clase principal de prueba.
  */
 public class Main {
     public static void main(String[] args) {
