@@ -1,2 +1,2 @@
 # edd
-Practica-Estructuras de Datos
+Practicas-Estructuras de Datos
