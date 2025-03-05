@@ -17,7 +17,7 @@ public class ProgresionFibonacci extends Progresion {
 
     @Override
     public int getSiguiente() {
-        int previo2 = valorActual;
+        int temporal = valorActual;
         valorActual = valorActual + previo1;
         previo1 = previo2;
         previo2 = valorActual;
