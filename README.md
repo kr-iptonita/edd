@@ -3,6 +3,7 @@ Practicas-Estructuras de Datos
 # Alumna
 Karla Romina Juárez Torres
 ## Descripción
+<<<<<<< HEAD
 Practicas de la materia estructuras de datos.
 
 # Proyecto de Progresiones Matemáticas
@@ -91,3 +92,6 @@ El programa ofrece las siguientes opciones:
 Este proyecto está bajo la licencia GNU.
 
 ---
+=======
+Practicas de la materia estructuras de datos.
+>>>>>>> parent of 3b91512 (README explicación)
