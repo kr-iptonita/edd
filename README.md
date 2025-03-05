@@ -4,6 +4,7 @@ Practicas-Estructuras de Datos
 Karla Romina Juárez Torres
 ## Descripción
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 Practicas de la materia estructuras de datos.
@@ -98,3 +99,5 @@ Este proyecto está bajo la licencia GNU.
 Practicas de la materia estructuras de datos.
 >>>>>>> parent of 3b91512 (README explicación)
 >>>>>>> 8922b6d (restore)
+=======
+>>>>>>> b3a7626 (yes)
