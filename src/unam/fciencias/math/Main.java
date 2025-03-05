@@ -10,6 +10,12 @@ public class Main {
 
         // Bucle principal del menú
         do {
+
+            System.out.println("\n  |\\__/,|   (`\\");
+            System.out.println("  |_ _  |.--.) )");
+            System.out.println("  ( T   )     /");
+            System.out.println(" (((^_(((/(((_/");
+
             // Mostrar el menú de opciones
             System.out.println("\nMenú de Progresiones:");
             System.out.println("1. Progresión Geométrica");
