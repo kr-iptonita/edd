@@ -5,11 +5,6 @@ Karla Romina Juárez Torres
 ## Descripción
 Practicas de la materia estructuras de datos.
 
-
-¡Por supuesto! Aquí tienes un ejemplo de un archivo `README.md` para tu proyecto. Este archivo proporciona una descripción general del proyecto, cómo configurarlo, cómo ejecutarlo y otras informaciones relevantes.
-
----
-
 # Proyecto de Progresiones Matemáticas
 
 Este proyecto implementa diferentes tipos de progresiones matemáticas en Java, incluyendo progresiones geométricas, progresiones de Fibonacci y progresiones de diferencia absoluta. El programa incluye un menú interactivo en la línea de comandos para probar cada una de estas progresiones.
