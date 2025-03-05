@@ -5,8 +5,11 @@ Karla Romina Juárez Torres
 ## Descripción
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> a99b41e (Revert "yes")
 Practicas de la materia estructuras de datos.
 
 # Proyecto de Progresiones Matemáticas
@@ -98,6 +101,9 @@ Este proyecto está bajo la licencia GNU.
 =======
 Practicas de la materia estructuras de datos.
 >>>>>>> parent of 3b91512 (README explicación)
+<<<<<<< HEAD
 >>>>>>> 8922b6d (restore)
 =======
 >>>>>>> b3a7626 (yes)
+=======
+>>>>>>> a99b41e (Revert "yes")
