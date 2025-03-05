@@ -13,12 +13,11 @@ public class ProgresionFibonacci extends Progresion {
     public void setPrevios(int n, int m) {
         previo1 = n;
         previo2 = m;
-        valorActual = m; // Establecer el valor actual como m
     }
 
     @Override
     public int getSiguiente() {
-        int temp = valorActual;
+        int previo2 = valorActual;
         valorActual = valorActual + previo1;
         previo1 = previo2;
         previo2 = valorActual;
