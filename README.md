@@ -31,7 +31,17 @@ src/
 - Una terminal o un IDE para compilar y ejecutar el programa.
 
 ---
-
+### Compilación
+   ```bash
+   javac src/unam/fciencias/math/*.java
+   ```
+---
+### Ejecución
+Despues de compilar ejecutar el siguiente comando:
+  ```bash
+   java -cp src unam.fciencias.math.Main
+  ```
+---
 ### Ejecución
 1. El **menú interactivo** se mostrará en la terminal. Selecciona una opción para probar las diferentes progresiones.
 ---
