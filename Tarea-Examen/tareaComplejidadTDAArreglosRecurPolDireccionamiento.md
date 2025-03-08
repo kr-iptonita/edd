@@ -27,7 +27,7 @@ del tiempo de ejecución (O(n)). Justifique con sumas (sumatorias) y muestre la 
       sum++;
 ```
 
-- El bucle `for` externo se ejecuta **$n$ veces**.
+- El bucle `for` externo se ejecuta $n$ veces.
 - Cada iteración del bucle realiza una operación constante (`sum++`).
 Entonces:
 $$
@@ -46,8 +46,8 @@ $$
       f o r ( j =0; j <n ; j ++)
           sum++;
 ```
-- El bucle externo se ejecuta **$n$ veces**.
-- Para cada iteración del bucle externo, el bucle interno también se ejecuta **$n$ veces**.
+- El bucle externo se ejecuta $n$ veces.
+- Para cada iteración del bucle externo, el bucle interno también se ejecuta $n$ veces.
 
 $$
 T(n) = \sum_{i=0}^{n-1} \sum_{j=0}^{n-1} 1 = \sum_{i=0}^{n-1} n = n \cdot n = n^2
@@ -64,8 +64,8 @@ $$
     f o r ( j =0; j <n∗n ; j ++)
       sum++;
 ```
-- El bucle externo se ejecuta **$n$ veces**.
-- Para cada iteración del bucle externo, el bucle interno se ejecuta **$n^2$ veces**.
+- El bucle externo se ejecuta $n$ veces.
+- Para cada iteración del bucle externo, el bucle interno se ejecuta $n^2$ veces.
 $$
 T(n) = \sum_{i=0}^{n-1} \sum_{j=0}^{n^2-1} 1 = \sum_{i=0}^{n-1} n^2 = n \cdot n^2 = n^3
 $$
@@ -81,8 +81,8 @@ $$
     f o r ( j =0; j <i ; j ++)
       sum++;
 ```
-- El bucle externo se ejecuta **$n$ veces**.
-- El bucle interno se ejecuta **$i$ veces** para cada $i$ (desde $0$ hasta $n-1$).
+- El bucle externo se ejecuta $n$ veces.
+- El bucle interno se ejecuta $i$ veces para cada $i$ (desde $0$ hasta $n-1$).
 
 $$
 T(n) = \sum_{i=0}^{n-1} \sum_{j=0}^{i-1} 1 = \sum_{i=0}^{n-1} i = \frac{(n-1) \cdot n}{2} = \frac{n^2 - n}{2}
@@ -100,8 +100,8 @@ $$
       f o r ( k=0; k<j ; k++)
         sum++;
 ```
-- Bucle externo ($i$): Se ejecuta **$n$ veces**.
-- Bucle medio ($j$): Para cada $i$, se ejecuta **$i^2$ veces**.
+- Bucle externo ($i$): Se ejecuta $n$ veces.
+- Bucle medio ($j$): Para cada $i$, se ejecuta $i^2$ veces.
 - Bucle interno ($k$): Para cada $j$, se ejecuta $j$ veces.
 
 $$
@@ -126,9 +126,7 @@ Notemos que solo las filas con índice par ($i = 2, 4, 6, \dots, n$) tienen elem
    - Para una fila par $i$, el número de filas pares anteriores es $k - 1$, donde $k = \frac{i}{2}$.
    - La suma de elementos en estas filas anteriores es $\sum_{m=1}^{k-1} 2m = (k-1)k$.
    - La posición dentro de la fila $i$ (base 0) para la columna $j$ es $j - 1$.
-
-**Combinar los conteos**
-   - La dirección total es la suma de los elementos antes de la fila \(i\) y la posición dentro de la fila \(i\).
+   - La dirección total es la suma de los elementos antes de la fila $i$ y la posición dentro de la fila $i$.
 
 con esto el polinomio de direccionamiento queda como:
 
