@@ -1,7 +1,9 @@
 package mx.unam.fciencias.edd.gato.logica;
 
 import mx.unam.fciencias.edd.gato.modelo.Matriz;
-
+/*
+ * La clase Reglas es la encargada de manejar la lógica del juego.
+ */
 public class Reglas {//Clase que contiene las reglas del juego
     private Matriz matriz;
 
