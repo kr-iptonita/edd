@@ -40,10 +40,10 @@ public class InterfazUsuario {
 
     private void mostrarTablero() {
         String[] celdas = reglas.getEstadomatriz();
-        System.out.println("#############");
-        System.out.println("| " + celdas[0] + " | " + celdas[1] + " | " + celdas[2] + " |");
-        System.out.println("| " + celdas[3] + " | " + celdas[4] + " | " + celdas[5] + " |");
-        System.out.println("| " + celdas[6] + " | " + celdas[7] + " | " + celdas[8] + " |");
-        System.out.println("#############");
-    }
+        System.out.println("================");
+        System.out.println("|| " + celdas[0] + " || " + celdas[1] + " || " + celdas[2] + " ||");
+        System.out.println("|| " + celdas[3] + " || " + celdas[4] + " || " + celdas[5] + " ||");
+        System.out.println("|| " + celdas[6] + " || " + celdas[7] + " || " + celdas[8] + " ||");
+        System.out.println("================");
+}
 }
