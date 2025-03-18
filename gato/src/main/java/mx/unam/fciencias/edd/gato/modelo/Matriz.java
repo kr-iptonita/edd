@@ -31,7 +31,9 @@ public class Matriz {//Clase que contiene la matriz del juego
     public boolean esMovimientoValido(int posicion) {
         return celdas[posicion].equals(String.valueOf(posicion + 1));//Se verifica si el movimiento es válido
     }
-
+/*
+ * Almacenamos las combinaciones de celdas que forman una línea ganadora en un arreglo de arreglos de enteros. Cada subarreglo contiene las posiciones de las celdas que forman una línea ganadora.
+ */
     public boolean hayGanador() {//Método que verifica si hay un ganador
         int[][] combinaciones = {//
             {0, 1, 2}, {3, 4, 5}, {6, 7, 8}, // Filas
