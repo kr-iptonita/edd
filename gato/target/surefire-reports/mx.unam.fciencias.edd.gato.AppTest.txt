@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: mx.unam.fciencias.edd.gato.AppTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.155 s -- in mx.unam.fciencias.edd.gato.AppTest
